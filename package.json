@@ -1,0 +1,25 @@
+{
+    "name": "MaxL",
+    "displayName": "MaxL",
+    "description": "Oracle Hyperion MaxL Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mxl",
+            "aliases": ["MaxL", "mxl"],
+            "extensions": [".mxl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mxl",
+            "scopeName": "source.mxl",
+            "path": "./syntaxes/mxl.tmLanguage.json"
+        }]
+    }
+}
